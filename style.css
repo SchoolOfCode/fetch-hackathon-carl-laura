@@ -2,13 +2,12 @@ body {
     background-image: url("pokedex.png");
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
   }
-
 h1 {
     text-transform: uppercase;
     font-family: 'Rajdhani', sans-serif;
 }
- 
 p {
     position: relative;
     left: 387px;
@@ -18,7 +17,13 @@ p {
     width: 250px; 
     word-wrap: break-word;
 }
-
 #p4 {
     line-height: 0.8;
 }
+.pokemonImage {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    height: 300px;
+}
+

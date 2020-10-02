@@ -12,7 +12,8 @@ h1 {
   border: 5px solid red;
   padding: 2px;
   border-radius: 25px;
-  background-color: lightgreen;}
+  background-color: lightgreen;
+}
 
 p {
   position: relative;
@@ -31,7 +32,7 @@ p {
 .pokemonImage {
   position: relative;
   left: 90px;
-  top: 40px;
+  top: -40px;
   height: 50%;
   width: 50%;
 }
@@ -69,5 +70,8 @@ top: 200px;
 
 #audio {
   position: relative;
-  top: 100px;
+  top: 490px;
+  left: 360px;
+  width: 50%;
+  height: 40px;
 }

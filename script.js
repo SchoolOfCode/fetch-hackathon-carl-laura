@@ -9,8 +9,8 @@ let h1 = document.querySelector("h1");
 async function getPokemon() {
     let response = await fetch("https://pokeapi.co/api/v2/pokemon/1/");
     let data = await response.json();
+    console.log(data.sprites.front_default);
     let pokemonName = data.name;
-    let pokemonImage = data.sprite;
     let pokemonNo = data.order;
     let pokemonHeight = data.height;
     let pokemonWeight= data.weight;
@@ -24,9 +24,8 @@ async function getPokemon() {
     p2.innerText = `Pokemon Height: ${pokemonHeight}`;
     p3.innerText = `Pokemon Weight: ${pokemonWeight}`;;
     p4.innerText = `Pokemon Moves: ${pokemonMove1}, ${pokemonMove2}, ${pokemonMove3}, ${pokemonMove4}, ${pokemonMove5}`;
-    let image = document.createElement("img");
-    image.src = "pokedex.png";
-    let body = document.querySelector("body");
-    body.appendChild("img");
-
+    img = document.createElement("img");
+    img.src = data.sprites.front_default;
+    body = document.querySelector("body");
+    body.appendChild(img);
 } getPokemon();

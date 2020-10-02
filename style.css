@@ -4,26 +4,51 @@ body {
     background-size: cover;
     position: absolute;
   }
+
 h1 {
     text-transform: uppercase;
     font-family: 'Rajdhani', sans-serif;
-}
+    border: 5px solid red;
+    padding: 2px;
+    border-radius: 25px;
+    background-color: lightgreen;}
+ 
 p {
     position: relative;
-    left: 387px;
-    top: 110px;
+    left: 400px;
+    top: 105px;
     line-height: 0.6;
     font-family: 'Rajdhani', sans-serif;
     width: 250px; 
     word-wrap: break-word;
 }
+
 #p4 {
     line-height: 0.8;
 }
+
 .pokemonImage {
     position: relative;
-    left: 100px;
-    top: 100px;
+    left: 20px;
+    top: -80px;
     height: 300px;
 }
 
+.next-btn {
+ position: relative;
+ top: 200px;
+}
+
+.nextButton {
+    height: 20px;
+    position: relative;
+  }
+  
+  .nextButton2 {
+    margin: 0;
+    position: absolute;
+    top: 400px;
+    left: 415px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

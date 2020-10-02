@@ -1,4 +1,7 @@
+let userName = prompt("What is your trainer name?")
+let h2 = document.querySelector("h2")
 
+h2.innerText = `Trainer name: ${userName}`
 
 let number = 1
 let p1 = document.querySelector("#p1");
@@ -65,7 +68,3 @@ function randomIndex() {
 let randomButton = document.querySelector("#random-btn")
 randomButton.addEventListener("click", randomIndex)
 
-let userName = prompt("What is your trainer name?")
-let h2 = document.querySelector("h2")
-
-h2.innerText = `Trainer name: ${userName}`

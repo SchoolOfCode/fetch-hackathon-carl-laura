@@ -68,3 +68,9 @@ function randomIndex() {
 let randomButton = document.querySelector("#random-btn")
 randomButton.addEventListener("click", randomIndex)
 
+let sound = document.querySelector("#soundButton"); 
+let audio = document.querySelector("#myAudio")
+function playAudio() {
+  audio.play();
+}
+soundButton.addEventListener("click", playAudio)

@@ -68,4 +68,4 @@ randomButton.addEventListener("click", randomIndex)
 let userName = prompt("What is your trainer name?")
 let h2 = document.querySelector("h2")
 
-h2.innerText = userName
+h2.innerText = `Trainer name: ${userName}`

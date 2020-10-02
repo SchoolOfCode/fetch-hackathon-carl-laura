@@ -16,7 +16,7 @@ h1 {
 p {
     position: relative;
     left: 400px;
-    top: 105px;
+    top: 142px;
     line-height: 0.6;
     font-family: 'Rajdhani', sans-serif;
     width: 250px; 
@@ -30,7 +30,7 @@ p {
 .pokemonImage {
     position: relative;
     left: 20px;
-    top: -80px;
+    top: -40px;
     height: 300px;
 }
 
@@ -39,16 +39,37 @@ p {
  top: 200px;
 }
 
-.nextButton {
-    height: 20px;
+  .nextPreviousButton {
+    height:20px;
+    width:20px;
     position: relative;
-  }
-  
-  .nextButton2 {
     margin: 0;
     position: absolute;
-    top: 400px;
-    left: 415px;
+    top: 483px;
+    left: 414.5px;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    display: flex;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
+
+  }
+
+  .randomButton {
+    height:20px;
+    width:20px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 517px;
+    left: 140px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    background-color: Transparent;
+    border: none;
+    overflow: hidden;
+    outline:none;
   }
